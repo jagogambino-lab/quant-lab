@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Dati: mai in Git (solo i manifest in data/manifests/)
+data/raw/
+data/processed/
+*.parquet
+*.duckdb
+
+# Segreti
+.env
